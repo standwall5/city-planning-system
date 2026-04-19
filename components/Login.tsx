@@ -93,14 +93,10 @@ export default function Login(): React.JSX.Element {
           {/* <div className="panel-overlay" /> */}
           <img
             className="building-bg"
-            src="https://scontent.fmnl45-1.fna.fbcdn.net/v/t1.15752-9/377284142_2389733254543841_7288138596334112928_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEmwxZ_lMI53AbFy4ThEV6v3BFRIKcXfzPcEVEgpxd_M4qPVYO7cSSNgLz9vKkAcbhMXS4bdnui0g8nzkN3CHhU&_nc_ohc=azlHAcvLd-EQ7kNvwGnPDl0&_nc_oc=AdlUB1tmlhylNraxR7Gqw3Py6y0bS6rjcrGaXgA77n09o_D3dpzACzkbTkR2z766ZgYNRQEQbDH87ebq9jtPQd98&_nc_zt=23&_nc_ht=scontent.fmnl45-1.fna&_nc_ss=8&oh=03_Q7cD4wFSDtK99cvzHiUVqFArwcw8o6yjZ14eqc-F3w5qJ5X2TA&oe=69DED7DE"
+            src="auth/city-hall.jpg"
             alt="City Hall"
           />
-          <img
-            className="map-svg"
-            src="https://scontent.fmnl45-2.fna.fbcdn.net/v/t1.15752-9/649303634_936146618812411_5783272993715675569_n.png?stp=dst-png_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGL1pGb7oHV4L9yUsQUaRMPBjmZT4KlbD4GOZlPgqVsPhCDUtO8uZ-czIs9Gi-3jlDBBkPxaH6wAc821rvIR9eS&_nc_ohc=fFx7xLJ_SGQQ7kNvwEnDpW1&_nc_oc=AdkqTpVRpTKOl5ZV6z0CF7_gOeJey5frrO3_WWwkJ7dWKGG-dIuWW7m_lsKqMParPyP8J1GkwJw1NqfpsFFGOtih&_nc_zt=23&_nc_ht=scontent.fmnl45-2.fna&_nc_ss=8&oh=03_Q7cD4wGF0nAFWCOTCndxBmAW4Kbz3iPOO4xD0Gu5cuxdlpUGCg&oe=69DED14D"
-            alt="Map"
-          />
+          <img className="map-svg" src="auth/map.png" alt="Map" />
         </div>
       </main>
 
@@ -166,6 +162,7 @@ export default function Login(): React.JSX.Element {
           align-items: center;
           justify-content: center;
           height: 100%;
+          width: 100vw;
           // padding: 0 20px;
         }
 
@@ -188,7 +185,7 @@ export default function Login(): React.JSX.Element {
           padding: 44px 40px 36px;
           display: flex;
           flex-direction: column;
-          height: 100vh;
+          height: 100%;
           width: 50%;
           align-items: center;
           justify-content: center;
@@ -283,7 +280,7 @@ export default function Login(): React.JSX.Element {
 
         .panel-right {
           position: relative;
-          height 100%;
+          height 100svh;
           display: flex;
           align-items: center;
           flex: 1;
